@@ -1,0 +1,353 @@
+/*general css*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/*header css*/
+.header{
+	overflow: hidden;
+	padding: 40px 0;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	margin-top: -8px;
+}
+.menu{
+	width: 70%;
+	float: left;
+}
+.menu ul{
+	list-style-type: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	color: #444456;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 0 28px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*technology css*/
+.technology{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.tech-brand{
+	width: 60%;
+	float: left;
+}
+.tech-brand img{
+	margin-left: 300px;
+}
+.tech-content{
+	width: 40%;
+	float: left;
+	margin-top: 70px;
+}
+.tech-content h1{
+	color: #3B4045;
+	font-size: 40px;
+	font-weight: 600;
+}
+.tech-content p{
+	color: #828493;
+	line-height: 25px;
+	margin: 30px 0;
+}
+.tech-content a{
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #FAB258;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+/*feature css*/
+.feature{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.feature-content{
+	float: left;
+	width: 27%;
+}
+.feature h1{
+	color: #3C3C3C;
+	font-size: 40px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-left: 35%;
+	margin-bottom: 90px;
+}
+.feature-image{
+	width: 27%;
+	float: left;
+	margin-left: 9%;
+}
+.f-content h3{
+	color: #3B4045;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+.f-content p{
+	color: #828493;
+	word-spacing: 5px;
+	line-height: 25px;
+	margin: 20px 0;
+}
+.right-content{
+	position: absolute;
+	right: 9%;
+}
+/*design css*/
+.design{
+	background-color: #F9A743; 
+	overflow: hidden;
+	padding: 50px 0;
+}
+.design-img{
+	width: 60%;
+	float: left;
+}
+.design-img img{
+	margin-left: 300px;
+}
+.design-content{
+	width: 40%;
+	float: left;
+	margin-top: 115px;
+}
+.design-content h1{
+	color: #fff;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+.design-content p{
+	color: #fff;
+	line-height: 25px;
+	word-spacing: 3px;
+	margin-top: 30px;
+}
+/*apple-watch css*/
+.apple-watch{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.apple-watch h1{
+	color: #3C3C3C;
+	font-size: 40px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-left: 38%;
+	margin-bottom: 90px;
+}
+.watch-img{
+	width: 60%;
+	float: left;
+}
+.watch-img img{
+	margin-left: 300px;
+}
+.watch-content{
+	width: 40%;
+	float: left;
+	margin-top: 110px;
+}
+.watch-content h2{
+	color: #3C3C3C;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.watch-content p{
+	color: #828493;
+	word-spacing: 5px;
+	line-height: 25px;
+	margin: 20px 0;
+}
+.watch-content a{
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #FAB258;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+/*touch-watch css*/
+.touch-watch{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.t-img{
+	float: left;
+	width: 60%;
+}
+.t-img img{
+	margin-left: 300px;
+}
+/*product css*/
+.product{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.product h1{
+	text-align: center;
+	text-transform: capitalize;
+	color: #3C3C3C;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 90px;
+}
+.p-img{
+	float: left;
+	width: 25%;
+}
+/*subscribe css*/
+.subscribe{
+	background-image: url(../images/about.png);
+	width: 100%;
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 50px 0;
+}
+.subscribe h3{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	text-transform: capitalize;
+	padding-top: 150px;
+}
+.subscribe p{
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 25px;
+}
+.subscribe .email{
+	display: inline-block;
+	border: none;
+	width: 18%;
+	font-size: 18px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	margin-left: 693px;
+}
+.subscribe .btn{
+	display: inline-block;
+	color: #fff;
+	background-color: #FAB054;
+	font-size: 18px;
+	border: none;
+	padding: 10px 50px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-left: -4px;
+}
+/*bio css*/
+.bio{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.s-bio{
+	float: left;
+	width: 30%;
+}
+.s-bio:nth-child(2){
+	margin: 0 5%;
+}
+.s-bio .s-bio-img{
+	margin-left: 180px;
+}
+.s-bio p{
+	text-align: center;
+	color: #A3A9A7;
+	line-height: 28px;
+	word-spacing: 5px;
+	margin: 10px 0;
+}
+.s-bio img{
+	margin-left: 164px;
+}
+.s-bio h1{
+	text-align: center;
+	color: #3B4045;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.s-bio h3{
+	text-align: center;
+	color: #A3A9A7;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.bio .container a{
+	background-color: #FAB258;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 30px;
+	margin-left: 635px;
+	margin-top: 87px;
+}
+/*footer css*/
+.footer{
+	background-color: #F4F4F4;
+	padding: 50px 0;
+}
+.footer img{
+	margin-left: 902px;
+	border-bottom: 2px solid #444444;
+}
+.footer ul{
+	list-style-type: none;
+	text-align: center;
+}
+.footer ul li{
+	display: inline-block;
+	margin: 25px 0;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #444;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 0 25px;
+}
+.footer p{
+	text-align: center;
+	color: #212529;
+}
+.footer p a{
+	color: #0D6EFD;
+}
